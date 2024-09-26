@@ -1,5 +1,5 @@
 # Portfolio Website &#128075;
-![portfolio-screenshot](./images/portfolio-screenshot.jpg)
+![portfolio-screenshot](./images/#)
 My current portfolio website built in HTML, CSS, and JavaScript
 
 ## Purpose &#127919;

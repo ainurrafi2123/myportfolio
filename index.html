@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Riley Brickman" />
+    <meta name="description" content="Riley Brickman - Portfolio Website" />
+    <meta name="keywords" content="web design, html, css, javascript" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ainur Rafi | Front-End Developer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./icons/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+  </head>
+  <body>
+    <header class="header-container desktop-header">
+      <a href="index.html">
+        <p class="header-logo">
+          ainur<span class="greeting-highlight">Rafi</span>
+        </p>
+      </a>
+
+      <nav>
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li id="hamburger">
+              <img src="./icons/menu.png" alt="Menu" onclick="toggleMenu()" />
+            </li>
+
+            <li class="nav-item">
+              <a href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects">Projects</a>
+            </li>
+
+            <li class="nav-line nav-item">
+              <div class="vertical-line"></div>
+            </li>
+
+            <li class="nav-contact nav-item">
+              <a class="header-contact" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <header class="mobile-header header-container">
+      <a href="index.html" onclick="toggleMenu()">
+        <p class="header-logo">
+          Riley<span class="greeting-highlight">.dev</span>
+        </p>
+      </a>
+      <nav>
+        <div class="nav-menu">
+          <ul class="nav-links">
+            <li class="nav-item">
+              <a href="#" onclick="toggleMenu()">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#about" onclick="toggleMenu()">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#projects" onclick="toggleMenu()">Projects</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#contact" onclick="toggleMenu()">Contact</a>
+            </li>
+
+            <li id="hamburger">
+              <img src="./icons/close.png" alt="Menu" onclick="toggleMenu()" />
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero-section container">
+        <div class="hero-left">
+          <p class="greeting">Hello World, I'm</p>
+          <h1>Ainur Rafi &#128075;</h1>
+
+          <hr class="greeting-under" />
+
+          <p class="hero-text">
+            A
+            <span class="greeting-highlight">front-end developer</span>
+            passionate about molding <br />
+            ideas into breathtaking digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#contact">
+              <button class="btn-primary">Contact me</button>
+            </a>
+
+            <a href="#projects">
+              <button class="btn-secondary">View my work</button>
+            </a>
+
+            <a
+              class="hero-socials github-logo"
+              href="https://github.com/ainurrafi2123"
+              title="View my GitHub"
+              target="_blank"
+            >
+              <img src="./icons/github-mark.png" alt="GitHub Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="img-box"></div>
+        </div>
+      </section>
+
+      <span class="anchor" id="about"></span>
+
+      <section class="about-section container">
+        <div class="about-left container">
+          <small class="about-small">ABOUT ME</small>
+          <p class="greeting">Who I am &#128640;</p>
+          <p class="about-text">
+            seorang siswa kelas XI yang sedang menekuni bidang Rekayasa Perangkat Lunak (RPL). 
+            saya telah mempelajari berbagai keterampilan seperti : Bahasa Java, PHP, MYSQL
+
+          </p>
+        </div>
+        <div class="about-right container">
+          <small class="about-small"> TECH STACK </small>
+          <p class="greeting">What I'm good at &#128187;</p>
+
+          <div class="logos">
+            <div class="marquee">
+              <div class="track">
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  width="64"
+                  alt="HTML5"
+                  title="HTML"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  width="64"
+                  alt="CSS3"
+                  title="CSS"
+                />
+                <!-- <img
+                  src="/icons/react-original.svg"
+                  width="64"
+                  alt="React"
+                  title="React"
+                /> -->
+                <!-- <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
+                  width="64"
+                  alt="WordPress"
+                  title="WordPress"
+                /> -->
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                  width="64"
+                  alt="GitHub"
+                  title="GitHub"
+                />
+                <!-- <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                  width="64"
+                  alt="Git"
+                  title="Git"
+                /> -->
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                  width="64"
+                  alt="Visual Studio Code"
+                  title="Visual Studio Code"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                  width="64"
+                  alt="Bootstrap"
+                  title="Bootstrap"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                  width="64"
+                  alt="Figma"
+                  title="Figma"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"
+                  width="64"
+                  alt="HTML5"
+                  title="HTML"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"
+                  width="64"
+                  alt="CSS3"
+                  title="CSS"
+                />
+                <!-- <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"
+                  width="64"
+                  alt="JavaScript"
+                  title="JavaScript"
+                />
+                <img
+                  src="/icons/react-original.svg"
+                  width="64"
+                  alt="React"
+                  title="React"
+                /> -->
+                <!-- <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/wordpress/wordpress-plain.svg"
+                  width="64"
+                  alt="WordPress"
+                  title="WordPress"
+                /> -->
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                  width="64"
+                  alt="GitHub"
+                  title="GitHub"
+                />
+                <!-- <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
+                  width="64"
+                  alt="Git"
+                  title="Git"
+                /> -->
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg"
+                  width="64"
+                  alt="Visual Studio Code"
+                  title="Visual Studio Code"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg"
+                  width="64"
+                  alt="Bootstrap"
+                  title="Bootstrap"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"
+                  width="64"
+                  alt="Figma"
+                  title="Figma"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="specialty-education">
+            <div class="specialty">
+              <small class="about-small"> SPECIALTY </small>
+              <p>Full-Stack Web Developer,</p>
+              <p>UI/UX Design</p>
+            </div>
+            <div class="education">
+              <small class="about-small"> EDUCATION </small>
+              <p>&#127891; SMK Telkom Malang</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <span class="anchor" id="projects"></span>
+
+      <section class="projects-section container">
+        <div class="projects-top container">
+          <small class="about-small">PORTFOLIO</small>
+          <h2>Projects</h2>
+          <p>Take a look at some of my work &#128205;</p>
+        </div>
+
+        <div class="projects-bottom container">
+          <!-- <span>Coming soon!</span> -->
+          <div class="project">
+            <div class="project-right">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/ecommerce.jpg"
+                  alt="Pulse Designs"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <div class="project-left">
+              <p class="greeting">Eccomerce-Web</p>
+              <p class="project-desc">
+                Lets, go shoping in my shop
+              </p>
+
+              <small class="project-small">REACT</small>
+              <small class="project-small">PHP</small>
+              <small class="project-small">MYSQL</small>
+
+              <div class="project-btn-wrapper">
+                <a
+                  href="https://github.com/rbrickmn/mixmaster-app"
+                  target="_blank"
+                >
+                  <button class="project-btn">
+                    <span class="btn-text">View on GitHub</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/github-mark.png"
+                        alt="GitHub Logo"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+
+                <a href="#" target="_blank">
+                  <button class="project-btn">
+                    <span class="btn-text">Live Site</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/new_tab.png"
+                        alt="New Tab icon"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-2">
+            <div class="project-right">
+              <p class="greeting">Library-Web</p>
+              <p class="project-desc">
+                Read The book in my web.
+              </p>
+
+              <small class="project-small">HTML</small>
+              <small class="project-small">CSS</small>
+              <small class="project-small">JAVASCRIPT</small>
+              <small class="project-small">PHP</small>
+
+              <div class="project-btn-wrapper">
+                <a
+                  href="#"
+                  target="_blank"
+                >
+                  <button class="project-btn">
+                    <span class="btn-text">View on GitHub</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/github-mark.png"
+                        alt="GitHub Logo"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+
+                <a href="#" target="_blank">
+                  <button class="project-btn">
+                    <span class="btn-text">Live Site</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/new_tab.png"
+                        alt="New Tab icon"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div class="project-left">
+              <a href="#" target="_blank">
+                <img
+                  src="./images/perpus.png"
+                  alt="MouseTrack"
+                  class="project-img"
+                />
+              </a>
+            </div>
+          </div>
+
+          <div class="project">
+            <div class="project-right">
+              <a href="https://syntaxsprint-app.vercel.app/" target="_blank">
+                <img
+                  src="./images/pariwisata.jpg"
+                  alt="SyntaxSprint"
+                  class="project-img"
+                />
+              </a>
+            </div>
+            <div class="project-left">
+              <p class="greeting">Tourism-Web</p>
+              <p class="project-desc">
+                Lets Go Holiday
+              </p>
+
+              <small class="project-small">REACT</small>
+              <small class="project-small">VITE</small>
+              <small class="project-small">PRISM.JS</small>
+
+              <div class="project-btn-wrapper">
+                <a
+                  href="https://github.com/rbrickmn/syntaxsprint-app"
+                  target="_blank"
+                >
+                  <button class="project-btn">
+                    <span class="btn-text">View on GitHub</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/github-mark.png"
+                        alt="GitHub Logo"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+
+                <a
+                  href="https://syntaxsprint-app.vercel.app/"
+                  target="_blank"
+                >
+                  <button class="project-btn">
+                    <span class="btn-text">Live Site</span>
+                    <span class="btn-icon">
+                      <img
+                        src="./icons/new_tab.png"
+                        alt="New Tab icon"
+                        class="btn-img"
+                      />
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="see-more container">
+            <a
+              href="https://www.github.com/ainurrafi2123"
+              target="_blank"
+              class="see-more"
+            >
+              <button class="see-more-btn btn-primary">See more</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <span class="anchor" id="contact"></span>
+
+      <section class="contact-section container">
+        <div class="contact-wrapper">
+          <div class="contact-cta container">
+            <small class="about-small">CONTACT ME</small>
+            <h3 class="greeting">Let's talk! &#128231;</h3>
+            <hr class="contact-under" />
+          </div>
+          <div class="contact-box container">
+            <div class="contact-email">
+              <div class="contact-icon">
+                <img src="./icons/email.png" alt="Email icon" />
+              </div>
+              <div class="contact-info">
+                <small class="contact-type">E-mail</small>
+                <small class="contact-detail">
+                  <a href="mailto:rbrickmn@gmail.com">ainurrafi2123@gmail.com</a>
+                </small>
+              </div>
+            </div>
+
+            <div class="contact-email">
+              <div class="contact-icon">
+                <img src="./icons/resume.png" alt="Resume icon" />
+              </div>
+              <div class="contact-info">
+                <small class="contact-type">My Résumé</small>
+                <small class="contact-detail">
+                  <a
+                    href="#"
+                    target="_blank"
+                    >View here
+                    <img
+                      src="./icons/new_tab.png"
+                      alt="New Tab icon"
+                      class="btn-img"
+                  /></a>
+                </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <hr class="greeting-under" />
+
+    <footer>
+      <div class="footer-copyright">
+        <p>&#169; 2024 All Rights Reserved.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://www.github.com/rbrickmn" target="_blank">
+          <img
+            src="./icons/github-mark.png"
+            alt="github-logo"
+            class="footer-logo"
+          />
+        </a>
+        <!-- <a href="https://www.linkedin.com/in/riley-brickman-834433280/" target="_blank">
+          <img src="./icons/LI-In-Bug.png" alt="linkedin-logo" class="footer-logo">
+        </a> -->
+      </div>
+    </footer>
+
+    <button onclick="topFunction()" id="js-top-btn" title="Scroll to top">
+      <img src="./icons/arrow_upward.png" alt="arrow pointing upwards" />
+    </button>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
